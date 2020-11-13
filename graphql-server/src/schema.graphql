@@ -1,0 +1,7 @@
+type Query {
+  users(query: String): [User!]!
+}
+
+type Mutation {
+  createUser: User!
+}
