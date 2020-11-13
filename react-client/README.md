@@ -1,6 +1,6 @@
 # Astronomer React Code Challenge
 
-This task is for demonstrating your understanding of GraphQL practices.
+This task is for demonstrating your understanding of using GraphQL in React and creating React components.
 
 ### System Requirements:
 
