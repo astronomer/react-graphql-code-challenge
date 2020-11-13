@@ -19,7 +19,7 @@ Client is available @ `http://localhost:3000/`
 ### Challenge:
 
 1. Connect to the `graphql-server` with [Apollo Client](https://www.apollographql.com/docs/react/).<br/>
-Note: `apollo-boost`, `@apollo/react-hooks`, and `graphql` are already installed.
+Note: `apollo-boost`, and `graphql` are already installed.
 ```
 import ApolloClient from 'apollo-boost';
 
@@ -28,17 +28,22 @@ const client = new ApolloClient({
 });
 ```
 
-2. Query all users.
+2. Query API for all users.
 ```
 query users {
   users {
     id
+    name
     email
+    phone
   }
 }
 ```
 
-3. List users in the client.
+3. Create a user result component. Use CSS modules to style of the component.
+4. Display the list of users using the new component on the homepage.
 
-Don't worry about the styles on the client - it's not important for this challenge.<br/>
-Feel free to add any packages needed to complete the challenge.
+Feel free to add any packages needed to complete the challenge. <br/>
+You're also welcome to reorganize the `src` folder to suite your preference.
+
+**Optional:** Integrate Jest tests for your new component and the GraphQL query.
