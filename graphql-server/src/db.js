@@ -9,7 +9,7 @@ const users = [
   {
     id: '29cd5658-cced-4fe2-9ed1-70c5b35f36c8',
     name: 'Ryan Hamilton',
-    email: 'ryan@astronomer.io',
+    email: 'ryan.hamilton@astronomer.io',
     phone: '(555) 555-5555',
     password: 'hmt2eY2LHDjHMRDw'
   },
