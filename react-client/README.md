@@ -18,10 +18,10 @@ Client is available @ `http://localhost:3000/`
 
 ### Challenge:
 
-1. Connect to the `graphql-server` with [Apollo Client](https://www.apollographql.com/docs/react/).<br/>
-Note: `apollo-boost`, and `graphql` are already installed.
+1. Connect to the `graphql-server` with [Apollo Client](https://www.apollographql.com/docs/react/get-started).<br/>
+Note: `@apollo/client`, and `graphql` are already installed.
 ```
-import ApolloClient from 'apollo-boost';
+import ApolloClient from '@apollo/client';
 
 const client = new ApolloClient({
   uri: 'http://localhost:4000',

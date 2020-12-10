@@ -8,19 +8,24 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "apollo-boost": "^0.4.7",
-    "eslint": "^4.18.2",
-    "graphql": "^15.0.0",
-    "prop-types": "^15.6.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17",
-    "webpack-dev-server": "^3.1.11"
+    "@apollo/client": "^3.3.4",
+    "graphql": "^15.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "webpack-dev-server": "^3.11.0"
   },
-  "devDependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
