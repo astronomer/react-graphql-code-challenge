@@ -42,13 +42,13 @@ function Users() {
 
 function App() {
     return (
-      <ApolloProvider client={client}>
-        <div>
-          <h1>Users</h1>
-          <Users />
-        </div>
-      </ApolloProvider>
+        <ApolloProvider client={client}>
+            <div>
+                <h1>Users</h1>
+                <Users />
+            </div>
+        </ApolloProvider>
     )
-  };
+};
 
 ReactDOM.render(<App />, document.getElementById('root'));
