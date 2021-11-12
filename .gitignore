@@ -98,3 +98,4 @@ build
 
 # Cypress test-generated screenshots
 cypress/screenshots/
+react-client/src/react-app-env.d.ts

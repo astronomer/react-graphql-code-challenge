@@ -1,6 +1,6 @@
 # Astronomer React Code Challenge
 
-This task is for demonstrating your understanding of using GraphQL in React and creating React components.
+This task is for demonstrating your understanding of using GraphQL in React.
 
 ### System Requirements:
 
@@ -16,34 +16,17 @@ This task is for demonstrating your understanding of using GraphQL in React and 
 
 Client is available @ `http://localhost:3000/`
 
-### Challenge:
+### Instructions:
 
-1. Connect to the `graphql-server` with [Apollo Client](https://www.apollographql.com/docs/react/get-started).<br/>
-Note: `@apollo/client`, and `graphql` are already installed.
-```
-import ApolloClient from '@apollo/client';
-
-const client = new ApolloClient({
-  uri: 'http://localhost:4000',
-});
-```
-
+1. Connect to the `graphql-server` with https://react-query.tanstack.com/.
 2. Query API for all users.
-```
-query users {
-  users {
-    id
-    name
-    email
-    phone
-  }
-}
-```
+3. Display the list of users using on the homepage.
+4. Use the https://chakra-ui.com/ to style your app.  
 
-3. Create a user result component. Use CSS modules to style of the component.
-4. Display the list of users using the new component on the homepage.
+### Note:
+- Dependencies required in the instructions are already installed.
 
 Feel free to add any packages needed to complete the challenge. <br/>
 You're also welcome to reorganize the `src` folder to suite your preference.
 
-**Optional:** Integrate Jest tests for your new component and the GraphQL query.
+**Optional:** Add unit testing.
