@@ -70,7 +70,6 @@ function MapAvatarSrc(users) {
 }
 
 export const ActiveUsers = ({ users }) => {
-	// const users = getUsersFromData(userData);
 	const avatarMap = MapAvatarSrc(users);
 	return (
 		<Box borderWidth="4px" borderColor="blue.800">
