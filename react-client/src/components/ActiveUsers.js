@@ -78,13 +78,7 @@ export const ActiveUsers = ({ users }) => {
 				{users.length ? (
 					users.map((user, index) => {
 						const imageSrc = avatarMap[index];
-						return (
-							<UserCard
-								key={index}
-								user={user}
-								imageSrc={imageSrc}
-							/>
-						);
+						return <UserCard key={index} user={user} imageSrc={imageSrc} />;
 					})
 				) : (
 					<NoUsersMessage />
