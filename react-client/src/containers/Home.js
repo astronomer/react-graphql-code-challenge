@@ -23,5 +23,5 @@ export const Home = () => {
 		return <MainError error={error} />;
 	}
 
-	return <ActiveUsers users={data} />;
+	return <ActiveUsers users={data.data.users} />;
 };
