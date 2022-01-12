@@ -72,7 +72,7 @@ function MapAvatarSrc(users) {
 export const ActiveUsers = ({ users }) => {
 	const avatarMap = MapAvatarSrc(users);
 	return (
-		<Box borderWidth="4px" borderColor="blue.800">
+		<Box>
 			<Flex flexWrap="wrap">
 				{users.length ? (
 					users.map((user, index) => {
