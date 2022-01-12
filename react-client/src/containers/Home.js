@@ -46,7 +46,12 @@ export const Home = () => {
 	const resp = useQuery("activeUsers", getActiveUsers);
 	const users = parseUsers(resp);
 	return (
-		<Box bg="tomato">
+		<Box
+			bg="tomato"
+			h={window.innerHeight}
+			borderWidth="4px"
+			borderColor="blue.800"
+		>
 			<AppHeading />
 			<Content users={users} {...resp} />
 		</Box>
