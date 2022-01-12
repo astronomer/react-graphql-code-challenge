@@ -6,16 +6,16 @@ axios.defaults.headers.post["Content-Type"] = "application/json;charset=utf-8";
 axios.defaults.headers.post["Access-Control-Allow-Origin"] = "*";
 
 export async function getActiveUsers() {
-	const graphqlQuery = {
-		operationName: "fetchUser",
-		query: `query fetchUser { users { id name email phone} }`,
-	};
+  const graphqlQuery = {
+    operationName: "fetchUser",
+    query: `query fetchUser { users { id name email phone} }`,
+  };
 
-	let resp = await axios({
-		url: ENDPOINT,
-		method: "post",
-		data: graphqlQuery,
-	});
+  let resp = await axios({
+    url: ENDPOINT,
+    method: "post",
+    data: graphqlQuery,
+  });
 
-	return resp.data;
+  return resp.data;
 }
